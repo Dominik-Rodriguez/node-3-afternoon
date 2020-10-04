@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px 6px 2px #ccc;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.menu:before { 
+  content:'\2630'; 
+  margin-right: 2px;
+  font-weight: bold;
+}
+
+.menu{
+  text-decoration: none;
+  /* border: 2px solid white; */
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.signin{
+  text-decoration: none;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px 8px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.logo1{
+ display: flex;
+ align-items: center;
+  justify-content: space-between;
+}
+
+.Search{
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.logo{
+  font-size: 40px;
+  display: flex;
+  margin-left: 60px;
+  
+}
+
+.navlist ul{
+  display: inline;
+  color: grey;
+  font-size: 20px;
+}
+
+.navlist ul:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.bodybackground{
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+  width: 100%;
+}
